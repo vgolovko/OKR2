@@ -187,7 +187,7 @@
 		504229D424AAFE1C005C126B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				50791D3224AC40BB001216F7 /* UiCollectionView */,
+				50791D3224AC40BB001216F7 /* UICollectionView */,
 				50791D3024AC40BB001216F7 /* UITableVIew */,
 				50791D2E24AC40A0001216F7 /* ReusableView.swift */,
 				50791D2524ABC3D4001216F7 /* Tag.swift */,
@@ -225,12 +225,12 @@
 			path = UITableVIew;
 			sourceTree = "<group>";
 		};
-		50791D3224AC40BB001216F7 /* UiCollectionView */ = {
+		50791D3224AC40BB001216F7 /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				50791D3324AC40BB001216F7 /* UICollectionViewCell+Registration.swift */,
 			);
-			path = UiCollectionView;
+			path = UICollectionView;
 			sourceTree = "<group>";
 		};
 		50791D4724AC9B22001216F7 /* Details */ = {
@@ -615,7 +615,7 @@
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.1;
+				minimumVersion = 6.0.0;
 			};
 		};
 		5023B763248905210050CAAC /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
@@ -623,7 +623,7 @@
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.1;
+				minimumVersion = 6.0.0;
 			};
 		};
 		50D1B37E24AA6FDC0093BBF5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
@@ -647,7 +647,7 @@
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.1;
+				minimumVersion = 5.0.0;
 			};
 		};
 		50D1B38924AA72F60093BBF5 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
@@ -655,7 +655,7 @@
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.1;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

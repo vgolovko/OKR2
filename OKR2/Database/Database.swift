@@ -99,13 +99,13 @@ final class Database: AbstractDatabase {
         }
     }
     
-    func changeSet<T: ModelConvertible>(predicate: (T.ModelType) -> Bool) -> Observable<(RealmChangeset?, [T])> where T == T.ModelType.EntityType, T.ModelType: Object {
-        let obs = Observable.collection(from: realm.objects(T.ModelType.self)).filter { (result) -> Bool in
-            return result.
-        }
-        let models = realm.objects(T.ModelType.self).filter(predicate)
-        return Observable.changeset(from: models)
-    }
+//    func changeSet<T: ModelConvertible>(predicate: (T.ModelType) -> Bool) -> Observable<(RealmChangeset?, [T])> where T == T.ModelType.EntityType, T.ModelType: Object {
+//        let obs = Observable.collection(from: realm.objects(T.ModelType.self)).filter { (result) -> Bool in
+//            return result.elements
+//        }
+//        let models = realm.objects(T.ModelType.self).filter(predicate)
+//        return Observable.changeset(from: models)
+//    }
     
 //    func obserWithProperty() -> Observable<[RMMovie]> {
 //        let realm = self.realm
